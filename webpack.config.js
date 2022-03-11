@@ -37,6 +37,10 @@ module.exports = {
           from: "./src/example.pdf",
           to: "./example.pdf",
         },
+        {
+          from: "./node_modules/pdfjs-dist/build/pdf.worker.js",
+          to: "./main.worker.js",
+        },
       ],
     }),
   ],
